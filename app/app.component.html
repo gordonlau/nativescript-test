@@ -1,0 +1,13 @@
+<Page>
+    <ActionBar title="My App" class="action-bar"></ActionBar>
+    <!-- Your UI components go here -->
+    <StackLayout>
+        <TextField hint="Email Address" keyboardType="email"
+        autocorrect="false" autocapitalizationType="none"></TextField>
+        <TextField hint="Password" secure="true"></TextField>
+        <Button text="Increment" (tap)="increment()"></Button>
+        <Button text="Decrement" (tap)="decrement()"></Button>
+        <Label text="The counter is {{counter}}"></Label>
+        <Image src="~/images/apple.jpg"></Image>
+    </StackLayout>
+</Page>
